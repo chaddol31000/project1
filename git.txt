@@ -1,0 +1,27 @@
+1. git init
+- 현재 폴더를 git으로 관리하겠다 
+
+2. git commit : 파일을 git으로 관리하겠다
+
+
+3. 한번에 git에 등록하는 것이 아니라 임시작업공간 (staging) 영역이 있다.
+    파일을 스테이징 영역에 add 할 수 있다
+
+4. git은 버전 관리 시스템
+    commit을 할 때마다 버전이 1씩 올라간다
+    그런데 작업중 실수할 때 버전이 올라가면 버전관리가 어렵다
+    - login 관리자가 테스트를 위해 login.html까지 만든 다음 실수로 html까지 commit
+      version 1. 로그인 구현
+      version 17. login.html 삭제
+    위와 같은 상황을 줄이기 위해 staging 영역이라는 임시 작업영역을 도입
+
+5. git init
+    - 현재 폴더를 git 프로그램으로 관리하겠다
+
+6. git add와 git reset으로 스테이징 영역에 추가/삭제한다
+    - 실수를 해도 버전으로 남지 않는다.
+
+7. 작업이 일단락되면 commit 한다
+    - git commit -m "작업내용" : 반드시 메시지를 남긴다
+
+
